@@ -1,0 +1,24 @@
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#parent {
+    position: relative;
+    background-size: cover;
+}
+
+  
+
+#div1 {
+    position: relative;
+    z-index: 1; /* Ensure div1 stays above the background image */
+    background: rgba(255,255,255,.1);
+    color:#fff,
+}
+#hello{
+    background: rgba(255,255,255,.1);
+}

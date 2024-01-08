@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    <div id="parent" class="flex justify-center items-center w-full h-screen bg-zinc-300" style="background-image:url('https://images.unsplash.com/photo-1682687220566-5599dbbebf11?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
+       
+        <div id="div1" class="w-72 h-96 bg-blue-700 rounded-lg   ">
+            <div id="divinput" class="px-2 py-3">
+                <p class="mb-2 text-lime-700 text-white text-2xl flex items-center justify-center">Please enter the place </p>
+                <input id="hello" type="text" class="px-2 mt-4 rounded-lg h-10 w-full  border border-white text-white placeholder-white" placeholder="Place">
+                <button type="submit" onclick="change()" class="h-9 w-full mt-6 px-3 bg-rose-950 rounded-full text-white">Submit</button>
+            </div>
+            <div id="value">
+                <div id="temp_dev" class="ml-20 mt-5 flex">
+                    <img class='h-9 w-9 rounded-lg' src="./images/temp.jpg" alt="temp" >
+                    <p id="temp" class="text-white ml-2.5 flex items-center justify-center font-medium text-xl">Temperature</p>
+                </div>
+                <div id="wind_dev" class="ml-20 mt-5 flex">
+                    <img class='h-9 w-9 rounded-lg' src="./images/wind.jpeg" alt="temp" >
+                    <p id="wind" class="text-white ml-3 flex items-center justify-center font-medium text-xl">Wind</p>
+                </div>
+                <div id="desc_dev" class="ml-20 mt-5 flex">
+                    <img class='h-9 w-9 rounded-lg' src="./images/desc.webp" alt="temp" >
+                    <p id="description" class="text-white ml-3 flex items-center justify-center font-medium text-xl">Description</p>
+                </div>
+              
+                
+                
+            </div>
+        </div>
+        </div>
+        
+    
+    <script src="./script.js"></script>
+</body>
+</html>
